@@ -1,2 +1,2 @@
 all:
-	g++ -I src/include -L src/lib -o main main.cpp -lmingw32 -lsdl2main -lSDL2
+	g++ main.cpp -I/mingw64/include/SDL2 -L/mingw64/lib -o main -lmingw32 -lSDL2main -lSDL2
